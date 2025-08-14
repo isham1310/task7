@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>User Data from API</h1>
+    <button id="reload-btn">Reload Users</button>
+    <button id="add-user-btn">Add User</button>
+    <div id="add-user-form" style="display:none; margin-bottom:20px;">
+        <input type="text" id="new-name" placeholder="Name" required>
+        <input type="email" id="new-email" placeholder="Email" required>
+        <input type="text" id="new-street" placeholder="Street" required>
+        <input type="text" id="new-suite" placeholder="Suite" required>
+        <input type="text" id="new-city" placeholder="City" required>
+        <button id="submit-user-btn">Submit</button>
+        <button id="cancel-user-btn">Cancel</button>
+    </div>
+    <div id="user-container">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
